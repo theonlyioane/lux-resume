@@ -252,7 +252,6 @@ h3 {
 span .resumeLine {
 	width: 80%;
 }
-
 .resumePhoto {
 	float: left;
 	position: absolute;
@@ -278,25 +277,23 @@ span .resumeLine {
 	float: right;
 	height: 24px;
 	width: 24px;
-	border: 2px solid red;
+	border: 2px solid #34a853;
 	border-radius: 12px;
 	margin-top: 16px;
 }
-.resume-progress .complete {
+.resume-progress.complete {
 	border: 2px solid #34a853;
     color: #34a853;
 }
-.resume-progress .working {
+.resume-progress.working {
 	border: 2px solid #0372bc;
     color: #0372bc;
 }
-.resume-progress .incomplete {
+.resume-progress.incomplete {
 	border: 2px solid #484848;
     color: #484848;
     opacity: .5;
 }
-
-
 /*******************************************
 BUTTON STYLES FOR CONTENT PAGES
 /*******************************************/
@@ -598,17 +595,21 @@ MEDIA QUERIES
 			font-size: 18px;
 			float: left;
 			margin-bottom: 10px;
-			margin-top: 8px;
+			margin-top: 5px;
 			margin-left: 35px;
-		}
-		.resumeBtn .fa{
-			font-size: 1.8em !important;
-			margin-top: 8px;
 		}
 		.btnWrapper.mobile.margin-top-20 {
 			width: 100%;
 			float: left;
 			margin-top: 20px;
 		}
-	}
+		.nav-links button .fa {
+    		margin: 3px;
+		}
+		.resume-progress {
+			float: left;
+			margin-top: 5px;
+			position: absolute;
+		}
+}
 

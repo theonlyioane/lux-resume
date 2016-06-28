@@ -192,6 +192,9 @@ h3 {
 	margin-bottom: 20px;
 	border-color:#e3e3e3;
 }
+.profileNav button .fa {
+	margin-bottom: 5px;
+}
 .btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default{
 	background-color: #0372bc;
 	border:#0372bc;
@@ -272,6 +275,9 @@ span .resumeLine {
 .addPhoto {
 	margin-top: 12px;
 }
+.mobileArrow {
+	display: none;
+}
 /**PROGRESS IDENTIFIER STYLES**/
 .resume-progress {
 	float: right;
@@ -294,6 +300,30 @@ span .resumeLine {
     color: #484848;
     opacity: .5;
 }
+/*******************************************
+PROGRESS BAR STYLES
+/*******************************************/
+.progress-section {
+	padding: 0px 20px;
+}
+
+.progress-bar {
+	background-color: #f7f7f7;
+	border: 1px solid #e3e3e3;
+	border-radius: 4px; 
+	height: 32px;
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
+}
+.progress-current {
+	background-color: #0372bc;
+	width: 20%;
+	height: 30px;
+	position: absolute;
+	border-radius: 4px;
+}
+
 /*******************************************
 BUTTON STYLES FOR CONTENT PAGES
 /*******************************************/
@@ -571,6 +601,7 @@ MEDIA QUERIES
 		.mobileArrow {
 			float: right;
 			color: #0372bc;
+			display: inline;
 		}
 		.backArrow {
 			background: #fff;

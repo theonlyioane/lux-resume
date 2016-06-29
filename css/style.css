@@ -349,19 +349,6 @@ PROGRESS BAR STYLES
 /*******************************************
 BUTTON STYLES FOR CONTENT PAGES
 /*******************************************/
-.wrapper{
-	padding: 20px 20px 0px 20px;
-	border-left: 1px solid #e3e3e3;
-	background-color: #f7f7f7;
-	min-height:1000px;
-	overflow-y: hidden;
-}
-.contentContainer {
-	height: auto;
-	background: #fff;
-	border: 1px solid #e3e3e3;
-	padding: 20px;
-}
 .col-md-8	{
 	background-color: #f7f7f7;
 	height: auto;
@@ -406,10 +393,11 @@ h6 {
 }
 
 /*******************************************
-CONTENT STYLES
+CONTENT TOPBAR STYLES
 /*******************************************/
 .topBar {
 	float: left;
+	width: 100%;
 	height: auto;
 }
 .topBar .btn-group {
@@ -426,12 +414,39 @@ CONTENT STYLES
 }
 .topBar h3 {
 	float: left;
-	margin-top: 7px;
+	margin-top: 0px;
 }
 .topBar .btn-group {
 	float: left;
 }
-
+.contentTitle hr{
+	width: 100%
+}
+.contentWrapper{
+	padding: 20px 20px 0px 20px;
+	border-left: 1px solid #e3e3e3;
+	background-color: #f7f7f7;
+	min-height:1000px;
+	overflow-y: hidden;
+}
+.contentContainer {
+	height: auto;
+	background: #fff;
+	border: 1px solid #e3e3e3;
+	padding: 40px;
+}
+/*ADLIB STYLES*/
+.adlib h3 {
+	font-weight: 300;
+    line-height: 2;
+}
+.adlib.btn-group{
+	margin-top: -3px !important;
+}
+.adlib.btn-group button {
+	font-size: 24px;
+}
+}
 /*******************************************
 FOOTER STYLES
 /*******************************************/

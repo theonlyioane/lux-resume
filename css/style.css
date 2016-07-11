@@ -281,6 +281,10 @@ h6 {
 .buttonWidth input {
 	border: 1px solid #e3e3e3;
 }
+.search-result {
+	padding: 20px;
+	border: 1px solid #e3e3e3;
+}
 /*******************************************
 CONTENT TOPBAR STYLES
 /*******************************************/

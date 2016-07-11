@@ -40,9 +40,11 @@
             <div class="btn-group" role="group">
               <button type="button" class="btn btn-default active"><i class="fa fa-briefcase fa-lg" aria-hidden="true"></i><br>Crew</button>
             </div>
+            <!--
             <div class="btn-group" role="group">
               <button type="button" class="btn btn-default"><span><i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i></span><br>Messages</button>
             </div>
+            -->
             <div class="btn-group" role="group">
               <button type="button" class="btn btn-default"><span><i class="fa fa-cog fa-lg" aria-hidden="true"></i></span><br>Settings</button>
             </div>
@@ -131,6 +133,18 @@
           </button>
 
           <button type="button" class="resumeBtn">
+            <p>Positions</p> 
+            <div class="resume-progress incomplete">
+              <i class="fa fa-plus" aria-hidden="true"></i>
+            </div>
+            <div class="mobileArrow">
+              <i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
+            </div>
+            <div class="resumeLine inactive mobileHide"></div>
+            <div class="resumeLine inactive mobileHide" style="width:60%"></div>
+          </button>
+
+          <button type="button" class="resumeBtn">
             <p>Add References</p>
             <div class="resume-progress incomplete">
               <i class="fa fa-plus" aria-hidden="true"></i>
@@ -190,125 +204,237 @@
           <div class="row">
             <div class="contentTitle">
               <div class="topBar">
-                <h3 class="m-b-20">Objectives</h3>
+                <h3 class="m-b-20">Add a New Position</h3>
               </div>
               <hr>
             </div>
           </div>
 
-          <div class="row">
-
-            <div class="col-md-12 pad-0 adlib">
-              <h6>My primary objectives</h6>
-              <p>Here you can fill out your objective statements by filling in the missing words.</p>
-
-              <h3>I am looking for as a job as a 
-                <div class="btn-group" role="group">
-                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Select one job position
-                  <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Officer</a></li>
-                  <li><a href="#">Deck</a></li>
-                  <li><a href="#">Engineer</a></li>
-                  <li><a href="#">Interior</a></li>
-                  <li><a href="#">Galley</a></li>
-                  <li><a href="#">Landbased</a></li>
-                </ul>
-              </div>
-              . 
-              <br> I am looking for either a 
-
+    <div class="row m-b-40">
+        <h4>Add a new position</h4>
+          <div class="col-md-3 pad-0">
+            <h6>Select your position type</h6>
               <div class="btn-group" role="group">
                 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Select time frame
+                  Select one
                   <span class="caret"></span>
                 </button>
                 <ul class="dropdown-menu">
-                  <li><a href="#">Fulltime</a></li>
-                  <li><a href="#">Fulltime Rotational</a></li>
-                  <li><a href="#">Seasonal</a></li>
-                  <li><a href="#">Freelance</a></li>
-                  <li><a href="#">Delivery</a></li>
-                  <li><a href="#">Daywork</a></li>
+                  <li><a href="#">On board</a></li>
+                  <li><a href="#">Shorebased</a></li>
                 </ul>
               </div>
-              
-              or 
-              
+          </div>
+
+          <div class="col-md-3 pad-0">
+            <h6>Vessel Purpose</h6>
               <div class="btn-group" role="group">
                 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Select time frame
+                  Select one
                   <span class="caret"></span>
                 </button>
                 <ul class="dropdown-menu">
-                  <li><a href="#">Fulltime</a></li>
-                  <li><a href="#">Fulltime Rotational</a></li>
-                  <li><a href="#">Seasonal</a></li>
-                  <li><a href="#">Freelance</a></li>
-                  <li><a href="#">Delivery</a></li>
-                  <li><a href="#">Daywork</a></li>
+                  <li><a href="#">Charter</a></li>
+                  <li><a href="#">Private</a></li>
                 </ul>
               </div>
+          </div>
+    </div>
 
-              position on a 
-
+    <div class="row m-b-40">
+        <h4>What was your position title?</h4>
+          <div class="col-md-3 pad-0">
+            <h6>Primary Position</h6>
               <div class="btn-group" role="group">
                 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Select vessel type
+                  Select one
                   <span class="caret"></span>
                 </button>
                 <ul class="dropdown-menu">
-                  <li><a href="#">Motored Yacht</a></li>
-                  <li><a href="#">Sail Yacht</a></li>
-                  <li><a href="#">Private Yacht</a></li>
-                  <li><a href="#">Charter Yacht</a></li>
-                  <li><a href="#">Any Yacht</a></li>
+                  <li><a href="#">Captain</a></li>
+                  <li><a href="#">First Officer</a></li>
+                  <li><a href="#">Officer of Watch</a></li>
+                  <li><a href="#">Mate</a></li>
+                  <li><a href="#">Bosun</a></li>
+                  <li><a href="#">Deck Hand</a></li>
+                  <li><a href="#">Chief Engineer</a></li>
+                  <li><a href="#">2nd Engineer</a></li>
+                  <li><a href="#">Junior Engineer</a></li>
+                  <li><a href="#">Purser</a></li>
+                  <li><a href="#">Chief Steward/ess</a></li>
+                  <li><a href="#">Steward/ess</a></li>
+                  <li><a href="#">Chef</a></li>
+                  <li><a href="#">Sous Chef</a></li>
+                  <li><a href="#">Cook</a></li>
+                  <li><a href="#">Other</a></li>
                 </ul>
               </div>
+          </div>
 
-              between the size of 
-
+          <div class="col-md-3 pad-0">
+            <h6>Secondary Position</h6>
               <div class="btn-group" role="group">
                 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Select vessel size
+                  Select one
                   <span class="caret"></span>
                 </button>
                 <ul class="dropdown-menu">
-                  <li><a href="#">25-50ft</a></li>
-                  <li><a href="#">51-75ft</a></li>
-                  <li><a href="#">76-100ft</a></li>
-                  <li><a href="#">101-200ft</a></li>
-                  <li><a href="#">200ft+</a></li>
+                  <li><a href="#">Captain</a></li>
+                  <li><a href="#">First Officer</a></li>
+                  <li><a href="#">Officer of Watch</a></li>
+                  <li><a href="#">Mate</a></li>
+                  <li><a href="#">Bosun</a></li>
+                  <li><a href="#">Deck Hand</a></li>
+                  <li><a href="#">Chief Engineer</a></li>
+                  <li><a href="#">2nd Engineer</a></li>
+                  <li><a href="#">Junior Engineer</a></li>
+                  <li><a href="#">Purser</a></li>
+                  <li><a href="#">Chief Steward/ess</a></li>
+                  <li><a href="#">Steward/ess</a></li>
+                  <li><a href="#">Chef</a></li>
+                  <li><a href="#">Sous Chef</a></li>
+                  <li><a href="#">Cook</a></li>
+                  <li><a href="#">Other</a></li>
                 </ul>
               </div>
-              
-              <br> I am looking for a salary between 
+          </div>
+    </div>
 
+    <div class="row m-b-20">
+    
+        <h4>Add your vessel</h4>
+          <div class="col-md-12 pad-0">
+            <div class="btn-group btn-group-justified" role="group" aria-label="...">
+              <div class="btn-group" role="group">
+                <button type="button" class="btn btn-default">Search our database</button>
+              </div>
+              <div class="btn-group" role="group">
+                <button type="button" class="btn btn-default">Manually add your information</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-12 pad-0">
+           <h6>Enter the vessel name in the search bar below</h6>
+            <div class="buttonWidth">
+              <div class="input-group input">
+                <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
+              </div>
+            </div>
+          </div>
+
+    </div>
+
+    <div class="row m-b-20">
+        <h4>Employment Details</h4>
+          <div class="col-md-3 pad-0">
+           <h6>Monthly Salary</h6>
+            <div class="buttonWidth">
+              <div class="input-group input">
+                <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 pad-0">
+           <h6>Start Date</h6>
+            <div class="buttonWidth">
+              <div class="input-group input">
+                <input type="date" class="form-control" placeholder="" aria-describedby="basic-addon1">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 pad-0">
+           <h6>End Date</h6>
+            <div class="buttonWidth">
+              <div class="input-group input">
+                <input type="date" class="form-control" placeholder="" aria-describedby="basic-addon1">
+              </div>
+            </div>
+          </div>
+    </div>
+
+
+    <div class="row m-b-40">
+          <div class="col-md-6 pad-0">
+           <h6>Reason for leaving</h6>
+            <div class="buttonWidth">
+              <textarea name="message" rows="10" cols="30"></textarea>
+            </div>
+          </div>
+
+          <div class="col-md-6 pad-0">
+           <h6>Additional Notes</h6>
+            <div class="buttonWidth">
+              <textarea name="message" rows="10" cols="30"></textarea>
+            </div>
+          </div>
+    </div>
+
+    <div class="row m-b-40">
+        <h4>Reference for this position</h4>
+          <div class="col-md-3 pad-0">
+            <h6>May we contact this reference?</h6>
               <div class="btn-group" role="group">
                 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Select desired salary
+                  Select one
                   <span class="caret"></span>
                 </button>
                 <ul class="dropdown-menu">
-                  <li><a href="#">$1000-$2000</a></li>
-                  <li><a href="#">$2000-$3000</a></li>
-                  <li><a href="#">$3000-$4000</a></li>
-                  <li><a href="#">$4000-$5000</a></li>
-                  <li><a href="#">$5000-$6000</a></li>
-                  <li><a href="#">$6000-$7000</a></li>
-                  <li><a href="#">$7000-$8000</a></li>
-                  <li><a href="#">$8000-$9000</a></li>
-                  <li><a href="#">$9000-$9000</a></li>
-                  <li><a href="#">$10000-$12000</a></li>
-                  <li><a href="#">$12000-$15000</a></li>
-                  <li><a href="#">$15000+</a></li>
+                  <li><a href="#">Yes</a></li>
+                  <li><a href="#">No</a></li>
                 </ul>
               </div>
-              </h3>
-          </div><!--END COL-->
-        </div><!--END ROW-->
+          </div>
+
+          <div class="col-md-3 pad-0">
+           <h6>Reference Name</h6>
+            <div class="buttonWidth">
+              <div class="input-group input">
+                <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 pad-0">
+           <h6>Reference Company</h6>
+            <div class="buttonWidth">
+              <div class="input-group input">
+                <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 pad-0">
+           <h6>Reference Position</h6>
+            <div class="buttonWidth">
+              <div class="input-group input">
+                <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 pad-0">
+           <h6>Reference Phone Number</h6>
+            <div class="buttonWidth">
+              <div class="input-group input">
+                <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 pad-0">
+           <h6>Reference Email </h6>
+            <div class="buttonWidth">
+              <div class="input-group input">
+                <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
+              </div>
+            </div>
+          </div>
+
+    </div>
+
 
         <div class="row">
           <div class="col-md-12 pad-0">

@@ -352,7 +352,10 @@ h6 {
     padding: 20px;
     border: 1px solid #e3e3e3;
     width: 100%;
-    height: 180px;
+}
+.vessel-selected .fa {
+	float: right;
+	margin-top: 2px;
 }
 .required {
     color: #ea4335;
@@ -417,6 +420,7 @@ CONTENT TOPBAR STYLES
 .content-title button {
     float: right;
     margin-bottom: 20px;
+    margin-top: -10px;
 }
 .content-wrapper {
     padding: 20px 20px 0px 20px;

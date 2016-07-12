@@ -281,9 +281,50 @@ h6 {
 .buttonWidth input {
 	border: 1px solid #e3e3e3;
 }
-.search-result {
-	padding: 20px;
+
+/*NEW POSITION MODULE STYLES*/
+.vessel-input {
+	height: auto;
+	float: left;
 	border: 1px solid #e3e3e3;
+	width: 100%;
+	height: 360px;
+}
+.vessel-search {
+	border-right: 1px solid #e3e3e3;
+}
+.vessel-search .input-group{
+	width: 100%;
+	padding: 20px 10px 20px 20px;
+	border-bottom: 1px solid #e3e3e3;
+}
+.vessel-content {
+	float: left;
+	padding: 20px;
+}
+.vessel-results {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	height: 283px;
+	margin-right: -15px;
+}
+.vessel-results li {
+	list-style: none;
+	padding: 10px 20px ;
+	border-bottom: 1px solid #e3e3e3;
+}
+.vessel-results li:hover {
+	background: #f7f7f7;
+}
+.vessel-results ul {
+	padding: 0px;
+}
+.vessel-size {
+	font-weight: 700;
+}
+.vessel-selected {
+	background-color: #0372bc;
+	color: #fff;
 }
 /*******************************************
 CONTENT TOPBAR STYLES
@@ -475,3 +516,13 @@ MEDIA QUERIES
 		}
 }
 
+
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+	width: 10px;
+	background-color: #f0f0f0;
+}
+::-webkit-scrollbar-thumb {
+	background-color: #e3e3e3;
+}

@@ -305,6 +305,13 @@ h6 {
 .jobs input {
 	margin-right: 10px;
 }
+.height-input {
+	width: 50% !important;
+}
+.language-remove {
+	color: #ea4335;
+	margin-left: 10px;
+}
 /*VESSEL STYLES*/
 .vessel-input {
     height: auto;
@@ -356,6 +363,7 @@ h6 {
 }
 .input-group {
     width: 100%;
+    max-width: 200px;
     padding-right: 20px;
 }
 .input-locked {
@@ -405,7 +413,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
 .certificate-search {
     border-right: 1px solid #e3e3e3;
 }
-.certificatesearch .input-group {
+.certificate-search .input-group {
     width: 100%;
     padding: 20px 10px 20px 20px;
 }
@@ -457,7 +465,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
 .certificate-results {
 	overflow-y: scroll;
     overflow-x: hidden;
-    height: 464px;
+    height: 424px;
     margin-right: -15px;
     border-top: 1px solid #e3e3e3;
 }

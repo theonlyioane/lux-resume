@@ -302,6 +302,9 @@ h6 {
 .resume-text {
 	max-width: 700px;
 }
+.jobs input {
+	margin-right: 10px;
+}
 /*VESSEL STYLES*/
 .vessel-input {
     height: auto;
